@@ -1,4 +1,4 @@
-# CodeClause
+# CodeClause = Color Detection
 *Submission project 1 for CodeClause internship 2023 = Color Detection*
 
 ## Description
