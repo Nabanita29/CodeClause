@@ -1,8 +1,12 @@
-# CodeClause = Color Detection
-*Submission project 1 for CodeClause internship 2023 = Color Detection*
+# CodeClause
+*Submission project 1 for CodeClause internship 2023 = Color Detection*     
+*Submission project 2 for CodeClause internship 2023 = Brain tumor detection*
 
-## Description
+## Description (color detection)
 This project is a simple color detection application that uses K-means clustering to find the dominant colors in an image. The program takes an input image and identifies the most prominent colors present in it. The detected dominant colors are displayed.
+
+## Description (Brain tumor)
+This Python script demonstrates image classification using a pre-trained deep learning model. The script uses libraries such as Numpy, Pandas, TensorFlow, and TensorFlow Hub to facilitate the process. It starts by reading image labels from a CSV file and defines functions for image preprocessing, creating data batches for training, validation, and testing. A pre-trained model saved in the ".h5" format is loaded using a custom function. The script then allows users to input custom image file paths, converts them into batches, and uses the loaded model to make predictions on the custom data. The final step involves obtaining the predicted labels for the custom images based on their respective probabilities. Overall, this script provides an efficient and straightforward way to classify images using a pre-trained deep learning model, making it useful for various image classification tasks.
 
 ## Installation
 Clone the repository or download the project files to your local machine.
@@ -22,23 +26,8 @@ Clone the repository or download the project files to your local machine.
 ## Dependencies
 1. OpenCV (opencv-python)
 2. NumPy
-3. scikit-learn
+3. sci-kit-learn
 4. Matplotlib
-
-## Demo
-
-## Image one
-![image](https://github.com/Nabanita29/CodeClause/assets/107246882/5e9d728c-82eb-44d2-9311-27cdde37269c)
-
-## Detection of Image one
-![image](https://github.com/Nabanita29/CodeClause/assets/107246882/ec248c06-22e9-4b51-a859-14fc759d460a)
-
-## Image two
-![image](https://github.com/Nabanita29/CodeClause/assets/107246882/c7b29008-5b32-41b4-82c2-9ee95cc0e7ab)
-
-
-## Detection of Image two
-![image](https://github.com/Nabanita29/CodeClause/assets/107246882/0d4be137-2399-4e7d-895b-905a5a6b078e)
 
 ## License
 This project is licensed under the MIT License.
